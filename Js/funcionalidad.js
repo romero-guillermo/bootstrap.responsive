@@ -8,11 +8,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function shuffleCarousel() {
     
-    var carouselInner = document.querySelector('.carousel-inner');
+    const carouselInner = document.getElementById('carrusel');
 
-    var items = Array.from(carouselInner.children);
+    const items = Array.from(carouselInner.children);
 
-    // Barajar la lista de elementos usando el algoritmo Fisher-Yates
     for (var i = items.length - 1; i > 0; i--) {
         var j = Math.floor(Math.random() * (i + 1));
         var temp = items[i];
