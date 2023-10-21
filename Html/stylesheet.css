@@ -31,3 +31,15 @@ p{
     text-align: justify;
     background-color: #F2F4F4;
 }
+ul {
+    text-decoration-line: underline;
+    
+}
+#diferente{
+   text-decoration-line: underline; 
+    text-decoration-color:#AEB6BF ; 
+}
+#buscador::placeholder {
+     opacity: 0.5;
+    
+  }
